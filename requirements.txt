@@ -7,3 +7,4 @@ seaborn
 tensorflow
 torch
 torchvision
+segmentation-models-pytorch
