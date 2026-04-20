@@ -8,3 +8,6 @@ tensorflow
 torch
 torchvision
 segmentation-models-pytorch
+gdown
+zipfile
+scikit-image

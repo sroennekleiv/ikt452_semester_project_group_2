@@ -1,0 +1,98 @@
+FCN CE
+
+Epoch [1/10] - Train Loss: 1.4139, Train mIoU: 0.2117, Train Pixel Acc: 39.77%, Val Loss: 1.4740, Val mIoU: 0.2599, Val Pixel Acc: 49.13%, 
+Epoch [2/10] - Train Loss: 0.8928, Train mIoU: 0.3737, Train Pixel Acc: 64.53%, Val Loss: 1.0475, Val mIoU: 0.4271, Val Pixel Acc: 68.68%, 
+Epoch [3/10] - Train Loss: 0.7739, Train mIoU: 0.4499, Train Pixel Acc: 71.28%, Val Loss: 0.8883, Val mIoU: 0.4937, Val Pixel Acc: 72.76%, 
+Epoch [4/10] - Train Loss: 0.6520, Train mIoU: 0.4918, Train Pixel Acc: 73.84%, Val Loss: 0.8686, Val mIoU: 0.4850, Val Pixel Acc: 73.12%, 
+Epoch [5/10] - Train Loss: 0.5980, Train mIoU: 0.5024, Train Pixel Acc: 76.06%, Val Loss: 0.7842, Val mIoU: 0.4990, Val Pixel Acc: 75.85%, 
+Epoch [6/10] - Train Loss: 0.5264, Train mIoU: 0.5423, Train Pixel Acc: 78.83%, Val Loss: 0.7022, Val mIoU: 0.5216, Val Pixel Acc: 77.85%, 
+Epoch [7/10] - Train Loss: 0.5277, Train mIoU: 0.5369, Train Pixel Acc: 77.42%, Val Loss: 0.7317, Val mIoU: 0.5020, Val Pixel Acc: 76.17%, 
+Epoch [8/10] - Train Loss: 0.4610, Train mIoU: 0.5673, Train Pixel Acc: 80.36%, Val Loss: 0.6632, Val mIoU: 0.5261, Val Pixel Acc: 78.17%, 
+Epoch [9/10] - Train Loss: 0.4242, Train mIoU: 0.5928, Train Pixel Acc: 81.44%, Val Loss: 0.6312, Val mIoU: 0.5333, Val Pixel Acc: 79.41%, 
+Epoch [10/10] - Train Loss: 0.4006, Train mIoU: 0.5855, Train Pixel Acc: 81.78%, Val Loss: 0.6193, Val mIoU: 0.5343, Val Pixel Acc: 79.61%, 
+
+Best checkpoint: epoch 10  (Val mIoU = 0.5343)
+Saved to: checkpoints/FCN_best.pth
+Loss: 0.6332, mIoU: 0.5240, Pixel Acc: 78.66%
+Class 0 IoU: 0.6464
+Class 1 IoU: 0.7536
+Class 2 IoU: 0.3129
+Class 3 IoU: 0.7507
+Class 4 IoU: 0.5210
+Class 5 IoU: 0.5609
+Class 6 IoU: 0.1228
+
+
+UNET CE
+
+Epoch [1/10] - Train Loss: 1.8688, Train mIoU: 0.1180, Train Pixel Acc: 27.37%, Val Loss: 1.6615, Val mIoU: 0.1645, Val Pixel Acc: 34.86%, 
+Epoch [2/10] - Train Loss: 1.4371, Train mIoU: 0.2163, Train Pixel Acc: 38.43%, Val Loss: 1.5186, Val mIoU: 0.2478, Val Pixel Acc: 44.44%, 
+Epoch [3/10] - Train Loss: 1.2640, Train mIoU: 0.2679, Train Pixel Acc: 44.95%, Val Loss: 1.4276, Val mIoU: 0.2815, Val Pixel Acc: 48.31%, 
+Epoch [4/10] - Train Loss: 1.1308, Train mIoU: 0.2989, Train Pixel Acc: 51.51%, Val Loss: 1.4026, Val mIoU: 0.2865, Val Pixel Acc: 50.71%, 
+Epoch [5/10] - Train Loss: 1.0642, Train mIoU: 0.3143, Train Pixel Acc: 55.49%, Val Loss: 1.2872, Val mIoU: 0.3246, Val Pixel Acc: 56.43%, 
+Epoch [6/10] - Train Loss: 0.9774, Train mIoU: 0.3485, Train Pixel Acc: 59.83%, Val Loss: 1.1677, Val mIoU: 0.3653, Val Pixel Acc: 63.06%, 
+Epoch [7/10] - Train Loss: 0.9286, Train mIoU: 0.3732, Train Pixel Acc: 63.06%, Val Loss: 1.2021, Val mIoU: 0.3606, Val Pixel Acc: 63.53%, 
+Epoch [8/10] - Train Loss: 0.8774, Train mIoU: 0.3945, Train Pixel Acc: 65.33%, Val Loss: 1.1151, Val mIoU: 0.3904, Val Pixel Acc: 66.60%, 
+Epoch [9/10] - Train Loss: 0.8711, Train mIoU: 0.3943, Train Pixel Acc: 65.16%, Val Loss: 1.0091, Val mIoU: 0.4204, Val Pixel Acc: 69.53%, 
+Epoch [10/10] - Train Loss: 0.7932, Train mIoU: 0.4323, Train Pixel Acc: 68.70%, Val Loss: 0.9554, Val mIoU: 0.4407, Val Pixel Acc: 71.00%, 
+
+Best checkpoint: epoch 10  (Val mIoU = 0.4407)
+Saved to: checkpoints/UNet_best.pth
+Loss: 0.9612, mIoU: 0.4524, Pixel Acc: 70.57%
+Class 0 IoU: 0.6272
+Class 1 IoU: 0.6247
+Class 2 IoU: 0.2092
+Class 3 IoU: 0.7364
+Class 4 IoU: 0.3960
+Class 5 IoU: 0.5268
+Class 6 IoU: 0.0465
+
+PSPNET CE
+
+Epoch [1/10] - Train Loss: 1.6077, Train mIoU: 0.2170, Train Pixel Acc: 39.53%, Val Loss: 1.6873, Val mIoU: 0.1915, Val Pixel Acc: 17.53%, 
+Epoch [2/10] - Train Loss: 1.0153, Train mIoU: 0.3549, Train Pixel Acc: 61.30%, Val Loss: 1.0506, Val mIoU: 0.3923, Val Pixel Acc: 62.17%, 
+Epoch [3/10] - Train Loss: 0.8958, Train mIoU: 0.3960, Train Pixel Acc: 66.29%, Val Loss: 0.8882, Val mIoU: 0.4495, Val Pixel Acc: 69.58%, 
+Epoch [4/10] - Train Loss: 0.8165, Train mIoU: 0.4215, Train Pixel Acc: 69.69%, Val Loss: 0.8242, Val mIoU: 0.4398, Val Pixel Acc: 72.35%, 
+Epoch [5/10] - Train Loss: 0.7923, Train mIoU: 0.4262, Train Pixel Acc: 69.88%, Val Loss: 0.7291, Val mIoU: 0.4923, Val Pixel Acc: 75.81%, 
+Epoch [6/10] - Train Loss: 0.7578, Train mIoU: 0.4423, Train Pixel Acc: 69.96%, Val Loss: 0.7429, Val mIoU: 0.4718, Val Pixel Acc: 75.60%, 
+Epoch [7/10] - Train Loss: 0.7142, Train mIoU: 0.4570, Train Pixel Acc: 72.58%, Val Loss: 0.8702, Val mIoU: 0.4582, Val Pixel Acc: 70.79%, 
+Epoch [8/10] - Train Loss: 0.6952, Train mIoU: 0.4703, Train Pixel Acc: 73.55%, Val Loss: 0.7423, Val mIoU: 0.4622, Val Pixel Acc: 75.16%, 
+Epoch [9/10] - Train Loss: 0.6738, Train mIoU: 0.4628, Train Pixel Acc: 72.20%, Val Loss: 0.7161, Val mIoU: 0.4973, Val Pixel Acc: 75.73%, 
+Epoch [10/10] - Train Loss: 0.6574, Train mIoU: 0.4855, Train Pixel Acc: 74.92%, Val Loss: 0.7310, Val mIoU: 0.4834, Val Pixel Acc: 75.24%, 
+
+Best checkpoint: epoch 9  (Val mIoU = 0.4973)
+Saved to: checkpoints/PSPNet_best.pth
+Loss: 0.7272, mIoU: 0.5069, Pixel Acc: 75.81%
+Class 0 IoU: 0.6073
+Class 1 IoU: 0.7056
+Class 2 IoU: 0.2599
+Class 3 IoU: 0.7552
+Class 4 IoU: 0.5675
+Class 5 IoU: 0.5678
+Class 6 IoU: 0.0849
+
+DEEPLAB CE
+
+Epoch [1/10] - Train Loss: 1.6149, Train mIoU: 0.1573, Train Pixel Acc: 27.62%, Val Loss: 1.7578, Val mIoU: 0.2083, Val Pixel Acc: 25.02%, 
+Epoch [2/10] - Train Loss: 1.1608, Train mIoU: 0.2730, Train Pixel Acc: 52.25%, Val Loss: 1.4473, Val mIoU: 0.2813, Val Pixel Acc: 55.19%, 
+Epoch [3/10] - Train Loss: 0.9921, Train mIoU: 0.3662, Train Pixel Acc: 64.67%, Val Loss: 1.2024, Val mIoU: 0.3805, Val Pixel Acc: 66.01%, 
+Epoch [4/10] - Train Loss: 0.8307, Train mIoU: 0.4126, Train Pixel Acc: 67.92%, Val Loss: 1.0496, Val mIoU: 0.4459, Val Pixel Acc: 70.71%, 
+Epoch [5/10] - Train Loss: 0.7587, Train mIoU: 0.4586, Train Pixel Acc: 71.27%, Val Loss: 0.8888, Val mIoU: 0.4694, Val Pixel Acc: 74.52%, 
+Epoch [6/10] - Train Loss: 0.7225, Train mIoU: 0.4610, Train Pixel Acc: 72.52%, Val Loss: 0.8252, Val mIoU: 0.4658, Val Pixel Acc: 75.35%, 
+Epoch [7/10] - Train Loss: 0.6588, Train mIoU: 0.5033, Train Pixel Acc: 74.85%, Val Loss: 0.7817, Val mIoU: 0.4616, Val Pixel Acc: 76.32%, 
+Epoch [8/10] - Train Loss: 0.6166, Train mIoU: 0.4956, Train Pixel Acc: 75.19%, Val Loss: 0.8095, Val mIoU: 0.4967, Val Pixel Acc: 75.34%, 
+Epoch [9/10] - Train Loss: 0.6147, Train mIoU: 0.5106, Train Pixel Acc: 75.50%, Val Loss: 0.7169, Val mIoU: 0.5279, Val Pixel Acc: 77.91%, 
+Epoch [10/10] - Train Loss: 0.6215, Train mIoU: 0.5071, Train Pixel Acc: 76.92%, Val Loss: 0.6836, Val mIoU: 0.5212, Val Pixel Acc: 78.68%, 
+
+Best checkpoint: epoch 9  (Val mIoU = 0.5279)
+Saved to: checkpoints/DeepLabV3Plus_best.pth
+Loss: 0.7362, mIoU: 0.5249, Pixel Acc: 76.60%
+Class 0 IoU: 0.6444
+Class 1 IoU: 0.7115
+Class 2 IoU: 0.2846
+Class 3 IoU: 0.7067
+Class 4 IoU: 0.5334
+Class 5 IoU: 0.5951
+Class 6 IoU: 0.1990
+
+FCN with CANNY EDGES
