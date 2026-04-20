@@ -22,6 +22,8 @@ Class 4 IoU: 0.5210
 Class 5 IoU: 0.5609
 Class 6 IoU: 0.1228
 
+FCN DICECE
+
 
 UNET CE
 
