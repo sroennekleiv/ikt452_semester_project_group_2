@@ -4,10 +4,8 @@ numpy
 pandas
 scikit-learn
 seaborn
-tensorflow
 torch
 torchvision
 segmentation-models-pytorch
-gdown
-zipfile
 scikit-image
+opencv-python
